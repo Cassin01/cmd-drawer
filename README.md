@@ -16,7 +16,7 @@ function drawer() {
   if local output=$(cmd-drawer); then
     print -z -r "${output}" #INFO -z: output into next prompt, -r: ignore escape sequence
   else
-    echo "Err: failed to generate a commit message"
+    echo "Err: failed to take out a command."
   fi
 }
 ```
