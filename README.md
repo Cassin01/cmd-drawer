@@ -34,7 +34,7 @@ cmd = '''sudo nixos-rebuild switch'''
 desc = '[nixos] update'
 
 [[zsh]]
-cmd = '''sudo -e /etc/nixos/conffiguration.nix'''
+cmd = '''sudo -e /etc/nixos/configuration.nix'''
 desc = '[nixos] edit config'
 
 [[zsh]]
