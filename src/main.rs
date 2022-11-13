@@ -1,7 +1,6 @@
 use confy;
-use dialoguer::{theme::ColorfulTheme, Confirm, FuzzySelect};
+use dialoguer::{theme::ColorfulTheme, FuzzySelect};
 use serde_derive::{Deserialize, Serialize};
-use std::process::Command;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Conf {
