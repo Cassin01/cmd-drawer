@@ -30,11 +30,11 @@ function drawer() {
 
 ```toml
 [[zsh]]
-cmd = 'sudo nixos-rebuild switch'
+cmd = '''sudo nixos-rebuild switch'''
 desc = '[nixos] update'
 
 [[zsh]]
-cmd = 'sudo -e /etc/nixos/conffiguration.nix'
+cmd = '''sudo -e /etc/nixos/conffiguration.nix'''
 desc = '[nixos] edit config'
 
 [[zsh]]
