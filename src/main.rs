@@ -40,7 +40,6 @@ fn main() -> Res<()> {
         .iter()
         .map(|x| format!("{}: {}", x.desc.clone(), x.cmd.clone()))
         .collect();
-    println!("{:?}", selections);
     let selection = FuzzySelect::with_theme(&ColorfulTheme::default())
         .with_prompt("")
         .default(0)
