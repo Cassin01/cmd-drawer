@@ -14,6 +14,7 @@ Recommended for people who write a alias but forget about it.
 
 ## setup
 
+`zshrc`
 ```zsh
 function drawer() {
   if local output=$(cmd-drawer); then
