@@ -17,7 +17,8 @@ Recommended for people who write a alias but forget about it.
 `.zshrc`
 ```zsh
 function drawer() {
-  if local output=$(cmd-drawer); then
+  local output
+  if output=$(cmd-drawer); then
     print -z -r "${output}" #INFO -z: output into next prompt, -r: ignore escape sequence
   else
     echo "Err: failed to take out a command."
